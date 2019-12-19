@@ -82,7 +82,7 @@ function movieThis(movieName) {
         .then(function (response) {
             // console.log(response);
             const movieArray = response.data
-
+            console.log("-------------------------------------------")
             console.log("Movie Title : " + movieArray.Title)
             console.log("Release Year : " + movieArray.Year)
             console.log("IMDB Rating : " + movieArray.imdbRating)
