@@ -37,11 +37,47 @@ THE RESPONSE -
  * A preview link of the song from Spotify
  * The album that the song is from
 
+* If no song is provided then your program will output "Wrong song name".
 * If no song is provided then your program will default to "The Sign" by Ace of Base.
-
-+++ EXAMPLE +++ 
+## +++ EXAMPLE +++ 
 
 ![image3](/images/spotify.this.song.png)
+
+## +++ ERROR +++
+
+![image4](/images/err.spotify.this.song.png)
+
 ############################################################################################
 
+Command  3 - concert-this. This function will allow to access the bands in town api and search for your favorite artist and/or band and provide the upcoming tour-dates if available. This function uses the moment method in order to display the times and date properly. which was another package we had to install and initailize in order to use.
+
+
+THE RESPONSE - 
+* Name of the venue
+* Venue location
+* Date of the Event (use moment to format this as "MM/DD/YYYY")
+
+## +++ EXAMPLE +++ 
+
+![image5](/images/concert.this.exam.png)
+
+############################################################################################
  
+Command 4 - do-what-it-says. This one might seem more complicated than it is. It's actually very self-explaintory. You using the command node liri.js do-what-it-says, this function access the text file linked and uses the information in the file to execute one the command functions.
+
+
+THE RESPONSE - 
+* Artist(s)
+
+ * The song's name
+ * A preview link of the song from Spotify
+ * The album that the song is from
+
+* If no song is provided then your program will output "Wrong song name".
+* If no song is provided then your program will default to "The Sign" by Ace of Base.
+
+## +++ EXAMPLE +++ 
+
+![image6](/images/do.what.sayspng)
+
+############################################################################################
