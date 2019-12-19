@@ -5,4 +5,4 @@ This is a console based program and the ultility can be endless.
 
 ############################################################################################
 Starting by creating a json package file I installed the stopify api for node from the NPM. [npm (Click the Link here)](https://www.npmjs.com/package/node-spotify-api)
-[image1](\images\spotify.web.png)
+![image1](https://octodex.github.com/images/spotify.web.png)
