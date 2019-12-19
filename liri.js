@@ -32,8 +32,8 @@ function StartLiri(action, name) {
 StartLiri(action, name)
 // "SECOND FUNCTION IS THE SPOTIFY API / INSTEAD OF USING THE AJAX CALL WE LINK THE SPOTIFY AND USE THE PROMISE TO PULL THE OBJECT OF INFORMATION TO BE DISPLAYED."
 function spotifyThis(songName) {
-    if (songName == undefined) {
-        songName = "The sign"
+    if (songName === undefined) {
+        songName === "The Sign"
     }
     // "HOW WE ARE QUERYING THE URL TO FIND THE INFORMATION REQUESTED"
     spotify.search({ type: 'track', query: songName, limit: 5 }, function (err, data) {
