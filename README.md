@@ -78,6 +78,6 @@ THE RESPONSE -
 
 ## +++ EXAMPLE +++ 
 
-![image6](/images/do.what.sayspng)
+![image6](/images/do.what.says.png)
 
 ############################################################################################
